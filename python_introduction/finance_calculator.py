@@ -8,7 +8,7 @@ monthly_savings = float(input_income) - float(monthly_expense)
 
 print(f"Your monthly savings are ${monthly_savings}.")
 
-projected_savings = monthly_savings * 12 + (monthly_savings * 12 * 0.05)
+projected_savings = int(monthly_savings * 12 + (monthly_savings * 12 * 0.05))
 
 
 
