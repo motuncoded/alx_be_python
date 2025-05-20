@@ -13,5 +13,5 @@ projected_savings = monthly_savings * 12 + (monthly_savings * 12 * 0.05)
 
 monthly_savings = float(input_income) - float(monthly_expense)
 
-print(f"Projected savings after one year, with interest, is: ${projected_savings:.2f}.")
+print(f"Projected savings after one year, with interest, is: ${projected_savings}.")
 
