@@ -3,14 +3,15 @@ input_income = int(input("Enter your monthly income: "))
 monthly_expense = int(input("Enter your total monthly expense: "))
 
 # Calculate the savings
-savings = input_income - monthly_expense
+monthly_savings = input_income - monthly_expense
 
 # Your monthly savings are $1000.
 
-print(f"Your monthly savings are ${savings}.")
+print(f"Your monthly savings are ${monthly_savings}.")
 
-projected_savings = savings * 12 + (savings * 12 * 0.05)
+projected_savings = monthly_savings * 12 + (monthly_savings * 12 * 0.05)
 
-# i want to correct the floating point number to 2 decimal places
+monthly_savings = float(input_income) - float(monthly_expense)
+
 print(f"Projected savings after one year, with interest, is: ${projected_savings:.2f}.")
 
