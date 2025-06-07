@@ -19,4 +19,4 @@ def perform_operation():
         print("Invalid operation.")
 
 if __name__ == "__main__":
-    perform_operation()
+    perform_operation(num1, num2, operation)
